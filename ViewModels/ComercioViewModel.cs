@@ -1,4 +1,4 @@
-namespace Avaliacao3BimLp3.ViewModels;
+namespace Avaliacao3Lp3.ViewModels;
 
 public class ComercioViewModel
 {

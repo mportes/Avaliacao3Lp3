@@ -1,7 +1,7 @@
-using Avaliacao3BimLp3.ViewModels;
+using Avaliacao3Lp3.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Avaliacao3BimLp3.Controllers;
+namespace Avaliacao3Lp3.Controllers;
 
 public class ComerciosController : Controller
 {

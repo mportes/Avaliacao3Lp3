@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Avaliacao3BimLp3.Models;
+using Avaliacao3Lp3.Models;
 
-namespace Avaliacao3BimLp3.Controllers;
+namespace Avaliacao3Lp3.Controllers;
 
 public class HomeController : Controller
 {
