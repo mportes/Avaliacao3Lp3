@@ -39,7 +39,7 @@ public class ComerciosController : Controller
         return View();
     }
 
-    public IActionResult ConfirmacaoCadastro([FromForm] string piso, [FromForm] string nome, [FromForm] string descricao, [FromForm] string tipo, [FromForm] string email)
+    public IActionResult ConfirmacaoCadastro([FromForm] string piso, [FromForm] string tipo, [FromForm] string nome, [FromForm] string descricao, [FromForm] string email)
     {
         foreach (var comercio in comercios)
         {

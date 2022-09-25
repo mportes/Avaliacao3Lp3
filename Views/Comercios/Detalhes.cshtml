@@ -4,8 +4,11 @@
     ViewData["Title"] = "Detalhes Comércio";
 }
 
-<h1>@Model.Nome</h1>
-<p><b>@Model.Piso &nbsp;|&nbsp; @Model.Tipo</b></p>
-<p>@Model.Descricao</p>
-<p>@Model.Email</p>
-<p><a href="../Excluir/@Model.Id">Excluir</a></p>
+<h1>@Model.Nome (@Model.Tipo)</h1>
+<p><b>@Model.Descricao</b></p>
+<p><b>Localização: </b>@Model.Piso &nbsp;|&nbsp; <b>Contato: </b>@Model.Email</p>
+<p>
+    <a href="../Gerenciamento">Voltar</a>
+    <span>&nbsp;&nbsp;</span>
+    <a href="../Excluir/@Model.Id">Excluir</a>
+</p>
